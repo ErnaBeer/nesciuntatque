@@ -1,0 +1,45 @@
+{
+  "name": "nesciuntatque",
+  "version": "1.0.0",
+  "description": "Binary wrapper for Flow - A static type checker for JavaScript",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ErnaBeer/nesciuntatque.git"
+  },
+  "author": "CordieWill",
+  "bin": {
+    "flow": "cli.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: Run 'make test' instead.\" && exit 1",
+    "verify": "shasum -c SHASUM256.txt"
+  },
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "files": [
+    "flow-linux64-v*/flow",
+    "flow-osx-v*/flow",
+    "flow-win64-v*/flow.exe",
+    "vendor",
+    "cli.js",
+    "index.js",
+    "SHASUM256.txt"
+  ],
+  "keywords": [
+    "cli-app",
+    "illo",
+    "eos",
+    "binary",
+    "flow",
+    "facebook",
+    "type",
+    "inference",
+    "quas",
+    "checker",
+    "javascript",
+    "eligendi",
+    "wrapper"
+  ]
+}
